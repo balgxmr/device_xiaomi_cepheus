@@ -253,6 +253,7 @@
     </hal>
     <hal format="hidl">
         <name>vendor.nxp.nxpnfc</name>
+        <name>vendor.nxp.hardware.nfc</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
