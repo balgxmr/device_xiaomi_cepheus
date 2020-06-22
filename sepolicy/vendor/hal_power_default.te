@@ -13,6 +13,7 @@ allow hal_power_default {
   vendor_sysfs_kgsl
   sysfs_msm_subsys
   sysfs_touchpanel
+  sysfs_fs_f2fs
 }:dir search;
 
 allow hal_power_default {
@@ -22,6 +23,7 @@ allow hal_power_default {
   sysfs_msm_subsys
   sysfs_scsi_devices_0000
   sysfs_touchpanel
+  sysfs_fs_f2fs
   vendor_sysfs_devfreq
   vendor_sysfs_kgsl
 }:file rw_file_perms;
