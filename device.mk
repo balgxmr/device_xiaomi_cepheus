@@ -366,6 +366,9 @@ PRODUCT_COPY_FILES += \
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
