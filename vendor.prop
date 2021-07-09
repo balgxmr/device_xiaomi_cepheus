@@ -149,13 +149,11 @@ dalvik.vm.dex2oat64.enabled=true
 # Display
 debug.cpurend.vsync=false
 debug.egl.hw=0
-debug.hwui.renderer=skiagl
-debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=opengl
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.hw=1
 debug.sf.disable_client_composition_cache=1
-renderthread.skia.reduceopstasksplitting=true
 ro.hardware.egl=adreno
 ro.opengles.version=196610
 ro.hardware.vulkan=adreno
