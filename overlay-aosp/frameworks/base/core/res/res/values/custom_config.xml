@@ -26,4 +26,7 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+    
+    <!-- Night Light FOD -->
+    <bool name="disable_fod_night_light">true</bool>
 </resources>
