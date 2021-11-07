@@ -291,6 +291,11 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.1-service.cepheus
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
