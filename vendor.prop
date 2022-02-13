@@ -165,7 +165,6 @@ vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
-debug.sf.enable_gl_backpressure=1
 
 # FOD
 ro.hardware.fp.fod=true
