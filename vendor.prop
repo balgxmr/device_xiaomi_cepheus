@@ -137,7 +137,6 @@ persist.vendor.dpmhalservice.enable=1
 
 # Display
 debug.cpurend.vsync=false
-debug.mdpcomp.logs=0
 debug.sf.enable_hwc_vds=0
 debug.sf.enable_gl_backpressure=1
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
