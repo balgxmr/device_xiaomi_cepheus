@@ -27,6 +27,9 @@ set_prop(hal_fingerprint_default, vendor_fp_prop)
 
 add_hwservice(hal_fingerprint_default, hal_xiaomi_fingerprint_hwservice)
 
+# Allow fp HAL to sent hint
+hal_client_domain(hal_fingerprint_default, hal_power)
+
 # Allow hal_fingerprint_default to read fastrpc_shell_3
 allow hal_fingerprint_default public_adsprpcd_file:file r_file_perms;
 
