@@ -119,7 +119,8 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 TARGET_KERNEL_CONFIG := cepheus_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
-TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CLANG_VERSION := trb
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-trb/bin
 KERNEL_SUPPORTS_LLD := true
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
