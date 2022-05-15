@@ -167,6 +167,9 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 debug.sf.enable_gl_backpressure=1
 
+# Dolby
+persist.pixelpropsutils.spoof_netflix=true
+
 # FOD
 ro.hardware.fp.fod=true
 
