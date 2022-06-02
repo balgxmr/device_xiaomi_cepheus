@@ -37,7 +37,7 @@ Return<bool> SunlightEnhancement::isEnabled() {
         LOG(ERROR) << "Failed to read " << kHbmStatusPath;
         return false;
     }
-    return std::stoi(android::base::Trim(buf)) == 1;
+    return std::stoi(android::base::Trim(buf)) == 0;
 }
 
 Return<bool> SunlightEnhancement::setEnabled(bool enabled) {
