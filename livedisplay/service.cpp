@@ -14,12 +14,17 @@
  * limitations under the License.
  */
 
+<<<<<<< HEAD
 #define LOG_TAG "vendor.lineage.livedisplay@2.1-service.cepheus"
+=======
+#define LOG_TAG "vendor.lineage.livedisplay@2.0-service.cepheus"
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
 #include <hidl/HidlTransportSupport.h>
 
+<<<<<<< HEAD
 #include "AntiFlicker.h"
 #include "SunlightEnhancement.h"
 #include "livedisplay/sdm/SDMController.h"
@@ -54,6 +59,20 @@ int main() {
     if (status != OK) {
         LOG(ERROR) << "Could not register service for LiveDisplay HAL SunlightEnhancement Iface ("
                    << status << ")";
+=======
+#include "SunlightEnhancement.h"
+
+using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
+using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
+
+int main() {
+    android::sp<ISunlightEnhancement> sunlightEnhancement = new SunlightEnhancement();
+
+    android::hardware::configureRpcThreadpool(1, true /*callerWillJoin*/);
+
+    if (sunlightEnhancement->registerAsService() != android::OK) {
+        LOG(ERROR) << "Cannot register sunlight enhancement HAL service.";
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
         return 1;
     }
 

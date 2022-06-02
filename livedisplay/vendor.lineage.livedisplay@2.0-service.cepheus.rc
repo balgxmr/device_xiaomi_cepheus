@@ -1,6 +1,11 @@
 on boot
+<<<<<<< HEAD
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
     chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
+=======
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
 
 service vendor.livedisplay-hal-2-0 /vendor/bin/hw/vendor.lineage.livedisplay@2.0-service.cepheus
     class hal

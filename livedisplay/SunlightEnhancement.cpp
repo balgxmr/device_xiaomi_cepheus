@@ -25,11 +25,19 @@
 namespace vendor {
 namespace lineage {
 namespace livedisplay {
+<<<<<<< HEAD
 namespace V2_1 {
 namespace implementation {
 
 static constexpr const char* kHbmStatusPath =
         "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm";
+=======
+namespace V2_0 {
+namespace implementation {
+
+static constexpr const char* kHbmStatusPath =
+        "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en";
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
 
 Return<bool> SunlightEnhancement::isEnabled() {
     std::string buf;
@@ -37,7 +45,11 @@ Return<bool> SunlightEnhancement::isEnabled() {
         LOG(ERROR) << "Failed to read " << kHbmStatusPath;
         return false;
     }
+<<<<<<< HEAD
     return std::stoi(android::base::Trim(buf)) == 0;
+=======
+    return std::stoi(android::base::Trim(buf)) == 1;
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
 }
 
 Return<bool> SunlightEnhancement::setEnabled(bool enabled) {
@@ -49,7 +61,11 @@ Return<bool> SunlightEnhancement::setEnabled(bool enabled) {
 }
 
 }  // namespace implementation
+<<<<<<< HEAD
 }  // namespace V2_1
+=======
+}  // namespace V2_0
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
 }  // namespace livedisplay
 }  // namespace lineage
 }  // namespace vendor

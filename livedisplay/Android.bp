@@ -14,6 +14,7 @@
 // limitations under the License.
 
 cc_binary {
+<<<<<<< HEAD
     name: "vendor.lineage.livedisplay@2.1-service.cepheus",
     defaults: ["hidl_defaults"],
     vintf_fragments: ["vendor.lineage.livedisplay@2.1-service.cepheus.xml"],
@@ -22,6 +23,14 @@ cc_binary {
     srcs: [
         ":vendor.lineage.livedisplay@2.0-sdm-utils",
         "AntiFlicker.cpp",
+=======
+    name: "vendor.lineage.livedisplay@2.0-service.cepheus",
+    vintf_fragments: ["vendor.lineage.livedisplay@2.0-service.cepheus.xml"],
+    init_rc: ["vendor.lineage.livedisplay@2.0-service.cepheus.rc"],
+    defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    srcs: [
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
         "SunlightEnhancement.cpp",
         "service.cpp",
     ],
@@ -30,6 +39,7 @@ cc_binary {
         "libbase",
         "libbinder",
         "libhidlbase",
+<<<<<<< HEAD
         "libhidltransport",
         "libutils",
         "vendor.lineage.livedisplay@2.0",
@@ -37,5 +47,9 @@ cc_binary {
     ],
     header_libs: [
         "vendor.lineage.livedisplay@2.0-sdm-headers",
+=======
+        "libutils",
+        "vendor.lineage.livedisplay@2.0",
+>>>>>>> parent of c7f60f1... [SQUASH]cepheus: Nuke LiveDisplay HAL
     ],
 }
