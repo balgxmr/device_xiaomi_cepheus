@@ -288,6 +288,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_cepheus
 
+# LiveDisplay native
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
+
 # Media
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
@@ -300,11 +304,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
-
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.1-service.cepheus
 
 # Media
 PRODUCT_PACKAGES += \
