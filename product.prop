@@ -36,6 +36,9 @@ ro.lmk.low_ram=false
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
+# Keyguard
+persist.wm.enable_remote_keyguard_animation=0
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
