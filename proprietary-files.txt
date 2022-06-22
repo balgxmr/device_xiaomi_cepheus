@@ -179,8 +179,8 @@ vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libhexagon_nn_stub.so
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
+vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
+vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
 vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
@@ -277,7 +277,7 @@ vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/lf_facerank_model.bin
-vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 
