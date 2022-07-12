@@ -65,6 +65,6 @@ public class DiracSound extends AudioEffect {
     public void setHifiMode(int mode) throws IllegalStateException,
             IllegalArgumentException, UnsupportedOperationException,
             RuntimeException {
-        checkStatus(setParameter(DIRACSOUND_PARAM_HIFI, mode));
+        checkStatus(setParameter(DIRACSOUND_PARAM_HIFI, mode));   
     }
 }

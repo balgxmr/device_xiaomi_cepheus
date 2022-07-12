@@ -109,15 +109,4 @@
         <item>"3,3,1,-3,-3,0,0"</item>
         <item>"0,0,-1,-4,-4,5,4"</item>
     </string-array>
-
-    <string-array name="doze_brightness_level">
-        <item>@string/doze_brightness_low</item>
-        <item>@string/doze_brightness_high</item>
-        <item>@string/doze_brightness_adaptive</item>
-    </string-array>
-    <string-array name="doze_brightness_level_mode">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 </resources>
