@@ -18,8 +18,5 @@
 
         <!-- Screen attention (Pixel 2019) -->
         <item>device_personalization_services/Attention__enabled=true</item>
-        
-        <!-- ART heap compaction for cached apps -->
-        <item>activity_manager/use_compaction=true</item>
     </string-array>
 </resources>
