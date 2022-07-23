@@ -7,9 +7,9 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Blur
-ro.sf.blurs_are_expensive=0
-ro.surface_flinger.supports_background_blur=0
-ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=1
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.MGC
