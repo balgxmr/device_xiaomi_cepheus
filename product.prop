@@ -6,9 +6,6 @@ persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
-# Blur
-ro.sf.blurs_are_expensive=1
-
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 persist.camera.sat.fallback.dist.d=10
@@ -32,9 +29,6 @@ ro.surface_flinger.max_virtual_display_dimension=4096
 
 # LMKD
 ro.lmk.low_ram=false
-
-# IORap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # Media
 media.aac_51_output_enabled=true
@@ -104,6 +98,3 @@ ro.surface_flinger.protected_contents=true
 
 # WiFi
 wifi.interface=wlan0
-
-# Zygote
-persist.device_config.runtime_native.usap_pool_enabled=true
