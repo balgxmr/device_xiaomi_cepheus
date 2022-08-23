@@ -53,6 +53,8 @@ on early-fs
     write /sys/block/sda/queue/scheduler cfq
     write /sys/block/sda/queue/iosched/slice_idle 0
     write /sys/block/sda/queue/nr_requests 256
+    write /dev/sys/fs/by-name/userdata/data_io_flag 56
+    write /dev/sys/fs/by-name/userdata/node_io_flag 56
     
     # ZRAM setup
     write /sys/block/zram0/comp_algorithm lz4
@@ -136,6 +138,8 @@ on property:sys.boot_completed=1
 
     # Runtime fs tuning
     write /sys/block/sda/queue/nr_requests 128
+    write /dev/sys/fs/by-name/userdata/data_io_flag 8
+    write /dev/sys/fs/by-name/userdata/node_io_flag 8
 
     # First setup runtime cpusets only for silver cpus
     write /dev/cpuset/top-app/cpus 0-3
