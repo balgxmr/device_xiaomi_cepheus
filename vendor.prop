@@ -223,6 +223,11 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM8150
 
+# Suspend properties
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
+
 # System
 persist.sys.binary_xml=false
 
