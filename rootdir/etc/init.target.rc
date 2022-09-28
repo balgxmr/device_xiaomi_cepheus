@@ -57,10 +57,6 @@ on early-fs
     write /sys/block/sde/queue/read_ahead_kb 2048
     write /sys/block/sde/queue/nr_requests 256
 
-    # set default schedTune value for camera-daemon
-    write /dev/stune/camera-daemon/schedtune.prefer_idle 1
-    write /dev/stune/camera-daemon/schedtune.boost 0
-
 on fs
     start hwservicemanager
     mount_all /vendor/etc/fstab.qcom --early
