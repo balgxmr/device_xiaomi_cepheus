@@ -24,6 +24,7 @@ allow hal_power_default {
   sysfs_touchpanel
   vendor_sysfs_devfreq
   vendor_sysfs_kgsl
+  vendor_sysfs_graphics
 }:file rw_file_perms;
 
 # Allow powerhal to access devfreq
