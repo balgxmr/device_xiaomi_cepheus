@@ -642,11 +642,6 @@ vendor/lib64/vendor.qti.latency@2.0.so
 
 # Listen - from Xiaomi/vayu_global/vayu:11/RKQ1.200826.002/V12.0.6.0.RJUMIXM:user/release-keys
 vendor/etc/listen_platform_info.xml|02c1eab57442e34135d542d2205c3e77033c7d54
-vendor/etc/sound_trigger_mixer_paths.xml|6f86d5de7911408e8c73182aea212117139ea8c6
-vendor/etc/sound_trigger_mixer_paths_wcd9340.xml|18f9e8ec655f0d1daed30b0fd0e9ba3e8bea6218
-vendor/etc/sound_trigger_mixer_paths_wcd9340_qrd.xml|8bb4449ca78bfe5bd78ffa539771e2b6a86842f9
-vendor/etc/sound_trigger_platform_info.xml|94ac38676cf78cb6ec4657a106f2aa88138965f2
-vendor/lib/hw/sound_trigger.primary.msmnile.so|25331d55dc000a4b6ce6210a834fbd9f0a6abaa3
 vendor/lib/libadpcmdec.so|5232c32b93a8653612cd8fcdde161a9d7fe39c7f
 vendor/lib/libcapiv2svacnn.so|10271e9d5a32377740292bcf27f35098ee65fb5b
 vendor/lib/libcapiv2vop.so|ffde544a5b8b4db988e92308568a84caad80518e
@@ -657,7 +652,6 @@ vendor/lib/libgcs.so|58447a83f45f6de56d76bd8bfa3345d1940a592b
 vendor/lib/liblistensoundmodel2.so|8e5d795988c666c7d8c42653d6eab231bb5952cc
 vendor/lib/libmulawdec.so|4ad85b4982bf0cfed77c9bede75aac09a51ab062
 vendor/lib/libsmwrapper.so|a3a0301b270e7bbf832fa6b7d9929400c057ee41
-vendor/lib64/hw/sound_trigger.primary.msmnile.so|921f2c55b5a299876b3d2d84d8f75e24b05fe2f5
 vendor/lib64/libcapiv2svacnn.so|2feddde9dfee7ba606b72266d1b42e95d0e03c70
 vendor/lib64/libcapiv2vop.so|23a80adfacbfe48b8b4b57d74b3f4f847447ddf5
 vendor/lib64/libgcs-calwrapper.so|efb5bef39e2f73270a33f32ba007412fbbf7e300
