@@ -16,6 +16,9 @@
 -->
 <resources>
 
+    <!-- Xiaomi Parts -->
+    <string name="app_name">Xiaomi Parts</string>
+
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_enable">Use Dolby Atmos</string>
