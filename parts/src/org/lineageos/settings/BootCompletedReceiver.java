@@ -38,6 +38,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             Log.d(TAG, "Received boot completed intent");
 
         // Dolby Atmos
-        DolbyUtils.getInstance(context).onBootCompleted();
+        DolbyUtils.getInstance(context);
     }
 }
