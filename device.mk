@@ -291,6 +291,7 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
+    libstagefright_foundation-v33 \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 # Media
