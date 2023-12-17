@@ -20,4 +20,7 @@
 
     <!-- The padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">6dp</dimen>
+    
+    <!-- Height of the faceunlock image view -->
+    <dimen name="keyguard_face_unlock_margin_bottom">130dp</dimen>
 </resources>
