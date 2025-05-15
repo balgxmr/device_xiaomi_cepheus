@@ -58,7 +58,7 @@ TARGET_BOOTLOADER_BOARD_NAME := cepheus
 TARGET_NO_BOOTLOADER := true
 
 # Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+$(call soong_config_set,camera,override_format_from_reserved,true)
 TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.cepheus
 :
 
