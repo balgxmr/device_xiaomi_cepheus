@@ -96,7 +96,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/aosp/config/device_framework_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cepheus
 TARGET_RECOVERY_DEVICE_MODULES := libinit_cepheus
 
 # Kernel
