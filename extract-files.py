@@ -14,6 +14,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    "device/xiaomi/cepheus",
 	"hardware/qcom-caf/sm8150",
 	"hardware/qcom-caf/wlan",
 	"hardware/xiaomi",
@@ -29,6 +30,9 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    (
+        'vendor.qti.hardware.bluetooth_audio@2.0.so',
+    ): lib_fixup_vendor_suffix,
 }
 
 blob_fixups: blob_fixups_user_type = {
