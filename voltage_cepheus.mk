@@ -32,6 +32,9 @@ VOLTAGE_BUILD_TYPE := UNOFFICIAL
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Exclude QCOM powerhal manifest
+TARGET_PROVIDES_POWERHAL := true
+
 # Device identifier
 PRODUCT_NAME := voltage_cepheus
 PRODUCT_DEVICE := cepheus
