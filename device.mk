@@ -42,7 +42,6 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService-Soong \
     com.dsi.ant@1.0
 
 # Audio
@@ -52,8 +51,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.2-impl \
-    android.hardware.soundtrigger@2.3-impl \
-    android.hardware.audio.sounddose-vendor-impl
+    android.hardware.soundtrigger@2.3-impl
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -110,8 +108,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    libc29.vendor
+    android.hardware.camera.provider@2.4-service_64
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \

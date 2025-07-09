@@ -22,7 +22,6 @@ namespace_imports = [
 	"vendor/qcom/opensource/commonsys-intf/display",
 	"vendor/qcom/opensource/commonsys/display",
 	"vendor/qcom/opensource/display",
-	"vendor/qcom/common/system/telephony",
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
