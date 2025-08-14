@@ -29,14 +29,8 @@
 # (e.g. Google Camera App)
 /mnt/vendor/dsp/fastrpc_shell_3                                                                        u:object_r:public_adsprpcd_file:s0
 
-# HBM
-/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm                                             u:object_r:vendor_sysfs_hbm:s0
-
 # IR
 /dev/ir_spi                                                                                            u:object_r:ir_spi_device:s0
-
-# Livedisplay
-/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.cepheus                                      u:object_r:hal_lineage_livedisplay_qti_exec:s0
 
 # Mlipay
 /vendor/bin/mlipayd@1\.1                                                                               u:object_r:hal_mlipay_default_exec:s0
