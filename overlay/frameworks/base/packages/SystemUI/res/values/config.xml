@@ -55,4 +55,7 @@
 
     <!-- Pixel pitch of the device. um/px -->
     <item name="pixel_pitch" format="float" type="dimen">63.1</item>
+    
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
 </resources>
