@@ -212,7 +212,7 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
 
 on charger
     wait /dev/block/bootdevice/by-name/system
-    mount erofs /dev/block/bootdevice/by-name/system / ro barrier=1
+    mount ext4 /dev/block/bootdevice/by-name/system / ro barrier=1
 
     mkdir /mnt/vendor/persist 0771 root system
     wait /dev/block/platform/soc/1d84000.ufshc/by-name/persist
