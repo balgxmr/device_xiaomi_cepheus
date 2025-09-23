@@ -204,9 +204,6 @@ persist.vendor.sys.fp.udfps.location.X_Y=455,1920
 persist.vendor.sys.fp.udfps.size.width_height=173,173
 ro.hardware.fp.udfps=true
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
