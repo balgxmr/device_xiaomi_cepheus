@@ -93,7 +93,7 @@ DEVICE_MATRIX_FILE := hardware/qcom-caf/common//compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    vendor/voltage/config/device_framework_matrix.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cepheus
@@ -204,7 +204,7 @@ VENDOR_SECURITY_PATCH := 2021-10-01
 
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmnile
-include device/lineage/sepolicy/libperfmgr/sepolicy.mk
+include device/voltage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private

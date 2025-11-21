@@ -21,17 +21,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cepheus device
 $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common VoltageOS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# PixelOS flags
+# Voltage flags
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := aosp_cepheus
+PRODUCT_NAME := voltage_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9
