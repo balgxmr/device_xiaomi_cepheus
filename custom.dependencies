@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_cepheus",
+    "target_path": "kernel/xiaomi/cepheus"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_cepheus",
+    "target_path": "vendor/xiaomi/cepheus"
+  }
+]
