@@ -10,5 +10,3 @@ allow hal_health_default {
   sysfs_thermal
   vendor_sysfs_battery_supply
 }:file rw_file_perms;
-
-allow hal_health_default sysfs:file { open read getattr };
